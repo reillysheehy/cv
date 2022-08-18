@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact Me</title>
+</head>
+
+<body>
+  <h1>Contact Me</h1>
+  <ul>
+    <li>Phone (personal): 713-206-9903</li>
+    <li>Email: reilly.sheehy@gmail.com</li>
+    <li><a href="https://www.linkedin.com/in/reilly-sheehy-999706a6/">LinkedIn</a></li>
+  </ul>
+  <br>
+  <h2>Interested in Getting In Touch?</h2>
+  <p>Fill out the form below:</p>
+  <!-- Form Content -->
+  <form action="mailto:reilly.sheehy@gmail.com" method="post" enctype="text/plain">
+    <label for = "fname">First Name:</label>
+    <input type="text" name="fname">
+    <br><br>
+    <label for = "lname">Last Name:</label>
+    <input type="text" name="lname">
+    <br><br>
+    <label for = "email">Email:</label>
+    <input type="email" name="email">
+    <br><br>
+    <label for = "phone">Phone Number:</label>
+    <input type="tel" name="phone">
+    <br><br>
+    What is your preferred contact method? <br>
+    <input type="radio" name="cont_pref" id="email_radio" name="email_radio">
+    <label for="email_radio">Email</label>
+    <input type="radio" name="cont_pref" id="phone_radio" name="phone_radio">
+    <label for="phone_radio">Phone</label>
+    <br><br>
+    <label>What is your birthday?</label>
+    <input type="date">
+    <br><br>
+    <label>Do you want to sign up for our newsletter?</label>
+    <input type="checkbox">
+    <br><br>
+    <label>Add a file here:</label>
+    <input type="file" >
+    <br><br>
+    <label>Add additional details to your message:</label><br>
+    <textarea name="name" rows="10" cols="30"></textarea>
+    <br><br>
+    <input type="submit" value="SUBMIT">
+  </form>
+
+  <br>
+  <p><a href="index.html">Back to Home</a></p>
+
+</html>
